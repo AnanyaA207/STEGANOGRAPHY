@@ -1,0 +1,10 @@
+body { font-family: Inter, Arial, sans-serif; background:#f5f6fa; color:#111; padding:24px; }
+.wrap { display:flex; gap:20px; }
+.left { width:380px; background:#fff; padding:16px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+.right { flex:1; background:#fff; padding:16px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+input, textarea { width:100%; padding:8px; margin:8px 0; border:1px solid #ddd; border-radius:6px; }
+.btn { background:#00bcd4; border:none; padding:8px 12px; color:#fff; border-radius:6px; cursor:pointer; }
+.imgrow { display:flex; gap:12px; align-items:flex-start; }
+img { max-width:320px; border-radius:6px; border:1px solid #eee; }
+#log { max-height:240px; overflow:auto; background:#0b1220; color:#eee; padding:8px; border-radius:6px; }
+.line { padding:6px 4px; border-bottom:1px dashed rgba(255,255,255,0.05); font-size:13px; }
